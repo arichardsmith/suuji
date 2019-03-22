@@ -24,9 +24,6 @@ Each format can be accessed via:
 import { kanji, hiragana, digit } from '@arichardsmith/suuji'
 kanji.parse('七百五十二') // 752
 kanji.generate(752) // 七百五十二
-
-// or import files invidually
-import { parse, generate } from '@arichardsmith/suuji/kanji'
 ```
 
 ### Parsing
