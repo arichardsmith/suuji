@@ -2,7 +2,7 @@
 node_modules
 
 # Built files
-dist
+cjs
 module
 
 # VS Code config

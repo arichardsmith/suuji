@@ -3,12 +3,12 @@
     "target": "es2015",
     "module": "commonjs",
     "lib": ["es2016"],
-    "outDir": "dist",
+    "outDir": "cjs",
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true
   },
-  "exclude": ["node_modules", "test", "dist", "module"]
+  "exclude": ["node_modules", "test", "cjs", "module"]
 }
