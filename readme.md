@@ -1,4 +1,4 @@
-# Suuji
+# 数字（Suuji）
 
 Parse and generate Japanese numbers.
 
