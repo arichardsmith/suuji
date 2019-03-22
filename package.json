@@ -1,0 +1,30 @@
+{
+  "name": "@arichardsmith/suuji",
+  "version": "0.1.0",
+  "description": "Parse and generate Japanese numbers",
+  "main": "dist/index.js",
+  "module": "module/index.js",
+  "types": "module/index.d.ts",
+  "files": [
+    "dist",
+    "module"
+  ],
+  "author": "Richard Smith",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^6.0.2",
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.16.4",
+    "typescript": "^3.3.1"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:module": "tsc --project tsconfig.module.json",
+    "dev": "tsc --watch",
+    "test": "mocha test/*.test.js",
+    "prepublish": "npm run build && npm run build:module"
+  },
+  "pre-commit": [
+    "test"
+  ]
+}
