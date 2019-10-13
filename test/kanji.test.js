@@ -1,6 +1,6 @@
 const { testPair, testThrows } = require('./common')
 
-const kanji = require('../dist/kanji')
+const kanji = require('../cjs/kanji')
 
 describe('Kanji', () => {
   describe('parse', () => {

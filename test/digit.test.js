@@ -1,6 +1,6 @@
 const { testPair, testThrows } = require('./common')
 
-const digit = require('../dist/digit')
+const digit = require('../cjs/digit')
 
 describe('Digit', () => {
   describe('parse', () => {

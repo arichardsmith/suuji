@@ -1,6 +1,6 @@
 const { testPair, testThrows } = require('./common')
 
-const hiragana = require('../dist/hiragana')
+const hiragana = require('../cjs/hiragana')
 
 describe('Hiragana', () => {
   describe('parse', () => {
