@@ -1,6 +1,6 @@
 {
   "name": "@arichardsmith/suuji",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Parse and generate Japanese numbers",
   "main": "cjs/index.js",
   "module": "module/index.js",
@@ -12,7 +12,7 @@
   "author": "Richard Smith",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "^6.0.2",
+    "mocha": "^6.2.1",
     "pre-commit": "^1.2.2",
     "prettier": "^1.16.4",
     "typescript": "^3.3.1"
