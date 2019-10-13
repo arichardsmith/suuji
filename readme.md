@@ -10,7 +10,7 @@ yarn add @arichardsmith/suuji
 
 ## Formats
 
-This packages can parse or generate text in 3 formats:
+This package can parse or generate text in 3 formats:
 
 - Kanji e.g. 七百五十二
 - Hiragana e.g. ななひゃくごじゅうに
